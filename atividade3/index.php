@@ -10,10 +10,15 @@ Adulto: Maiores de 18 anos -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 4 - Restaurante</title>
+    <title>Atividade 3</title>
 </head>
 <body>
-    
-    
+    <h1>Classificação de Nadador</h1>
+    <form method="post" action="classificar_nadador.php">
+        <label for="idade">Idade do nadador:</label>
+        <input type="number" name="idade" required>
+        <br>
+        <input type="submit" value="Classificar">
+    </form>
 </body>
 </html>
