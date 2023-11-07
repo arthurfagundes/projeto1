@@ -40,12 +40,16 @@
     <div class="container">
         <h1>CADASTRO</h1>
         <form action="" method="post">
-            <input class="nome" type="text" name="nome" placeholder="Nome" required>
-            <input class="time1gols" type="number" name="time1gols" placeholder="Gols time 1" required>
+            <input class="nome" type="text" name="nome" placeholder="Nome" >
+            <label for="Sexo">Sexo</label>
+            <input type="radio" name="Masculino" id="masculino">Masculino
+            <input type="radio" name="Feminino" id="feminino">Feminino 
 
-            <input class="time2input" type="text" name="time2" placeholder="Insira o time 2" required>
-            <input class="time2gols" type="number" name="time2gols" placeholder="Gols time 2" required>
+            <input class="email" type="text" name="email" placeholder="E-mail">
+            <input type="number" name="altura" id="altura" placeholder="Altura">
+            <input type="number" name="peso" id="peso" placeholder="Peso">
 
+            
             <input type="submit" value="Ver resultados">
             <input type="reset" value="Limpar">
 
