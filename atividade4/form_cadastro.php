@@ -40,8 +40,7 @@
     <div class="container">
         <h1>CADASTRO</h1>
         <form action="" method="post">
-
-            <input class="time1input" type="text" name="time1" placeholder="Insira o time 1" required>
+            <input class="nome" type="text" name="nome" placeholder="Nome" required>
             <input class="time1gols" type="number" name="time1gols" placeholder="Gols time 1" required>
 
             <input class="time2input" type="text" name="time2" placeholder="Insira o time 2" required>
